@@ -2,16 +2,18 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #333;
-}
-
-#game-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+#game-container {
+    border: 2px solid #555;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
 canvas {
-    background-color: #7ec0ee; /* Sky blue */
-    border: 1px solid black;
+    display: block;
+    background-color: #7EC0EE; /* Sky blue */
 }
