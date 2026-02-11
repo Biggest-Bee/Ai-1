@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft-like Game Launcher</title>
+    <title>Ai-1 Minecraft-like Game</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Ai-1 Game!</h1>
-        <p>A simple Minecraft-like game.</p>
-        <button onclick="alert('Launching game...')">Start Game</button>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
     </div>
+    <script src="js/world.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/game.js"></script>
 </body>
 </html>
